@@ -230,64 +230,16 @@ text-align: center;
 
 /***************************** Grid ******************************************/
 
-.grid-title {
-position: absolute;
-left: 40rem;
-right: 0rem;
-top: 169px;
-bottom: 0;
-height: 6rem;
+.grid-text {
 display: flex;
 flex-direction: column;
-}
-
-.grid-img-text{
-display: flex;
-gap: 2rem;
-}
-
-.grid-xiaomi-text-info {
-display: grid;
-grid-template-columns: 1fr 1fr;
-justify-content: start;
-justify-items: start;
-}
-
-.grid-live{
-display: flex;
-}
-
-.grid-coll-text {
-display: flex;
-flex-direction: column;
-align-content: flex-start;
-align-items: flex-start;
+flex-wrap: wrap;
+align-content: center;
 justify-content: center;
-}
-
-.grid-atm{
-position: absolute;
-left: -42rem;
-right: 0;
-top: 0;
-bottom: 0;
-margin: auto;
-max-width: 36rem;
-height: 15rem;
-display: block;
-}
-
-.icons-img-text {
-display: flex;
-flex-direction: column;
-margin: 1rem;
-}
-
-.grid-text{
-display: flex;
+align-items: center;
+gap: 3rem;
 }
     
-
 /***************************** Conteudos ******************************************/
 
 .spacing{padding: 3rem;}
