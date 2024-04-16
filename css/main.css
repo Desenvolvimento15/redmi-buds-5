@@ -230,8 +230,6 @@ grid-row-gap: 0px;
 .div6 { grid-area: 2 / 4 / 5 / 5; }
     
 
-/***************************** Slides ******************************************/
-
 /********************** Slideshow ********************/
 
 #slider {
@@ -259,7 +257,7 @@ grid-row-gap: 0px;
     margin-top: 20px;
     }
     
-    #dots-container-desk {
+    #dots-container {
     text-align: center;
     margin-top: 20px;
     }
