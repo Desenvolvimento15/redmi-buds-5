@@ -233,65 +233,65 @@ grid-row-gap: 0px;
 /********************** Slideshow ********************/
 
 #slider {
-    width: 100%;
-    overflow: hidden;
-    }
-    
-    #slides {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    }
-    
-    .slide {
-    min-width: 100%;
-    box-sizing: border-box;
-    }
-    
-    .slide img {
-    width: 100%;
-    height: auto;
-    }
-    
-    #dots-container {
-    text-align: center;
-    margin-top: 20px;
-    }
-    
-    #dots-container {
-    text-align: center;
-    margin-top: 20px;
-    }
-    
-    .dot {
-    height: 30px;
-    width: 30px;
-    margin: 0 5px;
-    border-radius: 70%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-    }
-    
-    .dot:nth-child(1) {background: url(../media/desktop/Preto.png); /* Cor do dot para o Item 01 */}
-    .dot:nth-child(2) {background: url(../media/desktop/Branca.png); /* Cor do dot para o Item 02 */}
-    .dot:nth-child(3) {background: url(../media/desktop/cinza.png); /* Cor do dot para o Item 03 */}
-    .dot.active {border: #000 solid 0.08rem;/* Cor do dot ativo */}
-    
-      .text-position{position: relative;}
-      .text-overlay {
-        position: absolute;
-        top: 7rem;
-        left: 25rem;
-        width: 22rem;
-      }
-      
-      .text-position-slide{position: relative; width: 100%;}
-      .text-overlay-slide {
-        position: absolute;
-        bottom: 2rem;
-        left: 11rem;
-        width: 18rem;
-      }
-      .spacing{padding: 3rem;}
+width: 100%;
+overflow: hidden;
+}
+
+#slides {
+display: flex;
+transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+min-width: 100%;
+box-sizing: border-box;
+}
+
+.slide img {
+width: 100%;
+height: auto;
+}
+
+#dots-container {
+text-align: center;
+margin-top: 20px;
+}
+
+#dots-container {
+text-align: center;
+margin-top: 20px;
+}
+
+.dot {
+height: 30px;
+width: 30px;
+margin: 0 5px;
+border-radius: 70%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.dot:nth-child(1) {background: url(../media/desktop/Preto.png); /* Cor do dot para o Item 01 */}
+.dot:nth-child(2) {background: url(../media/desktop/Branca.png); /* Cor do dot para o Item 02 */}
+.dot:nth-child(3) {background: url(../media/desktop/cinza.png); /* Cor do dot para o Item 03 */}
+.dot.active {border: #000 solid 0.08rem;/* Cor do dot ativo */}
+
+.text-position{position: relative;}
+.text-overlay {
+position: absolute;
+top: 7rem;
+left: 25rem;
+width: 22rem;
+}
+
+.text-position-slide{position: relative; width: 100%;}
+.text-overlay-slide {
+position: absolute;
+bottom: 2rem;
+left: 11rem;
+width: 18rem;
+}
+.spacing{padding: 3rem;}
 
 
 /************************************* Mobile ***************************************/
