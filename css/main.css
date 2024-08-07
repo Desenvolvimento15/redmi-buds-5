@@ -131,11 +131,21 @@ font-weight: 500;
 font-family: 'CamphorPro', sans-serif;
 position: relative;
 overflow-wrap: break-word;
+text-align: center;
 }
 
 .subtitle{
 text-align: center;
 font-size: 3rem;
+font-weight: 700;
+font-family: 'CamphorPro', sans-serif;
+position: relative;
+overflow-wrap: break-word;
+}
+
+.subtitle-box{
+text-align: center;
+font-size: 2.5rem;
 font-weight: 700;
 font-family: 'CamphorPro', sans-serif;
 position: relative;
