@@ -209,6 +209,16 @@ align-items: center;
 gap: 3rem;
 }
     
+.grid-end {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 74%;
+    bottom: 0;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+}
 /***************************** Conteudos ******************************************/
 
 .spacing{padding: 3rem;}
