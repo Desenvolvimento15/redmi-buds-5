@@ -218,6 +218,20 @@ justify-content: center;
 align-items: center;
 gap: 3rem;
 }
+
+.grid-bloco{
+position: absolute;
+left: -36%;
+right: 0;
+top: 24%;
+bottom: 0;
+height: 6rem;
+display: flex;
+margin: 0 auto;
+flex-direction: column;
+flex-wrap: nowrap;
+width: 44%;
+}
     
 .grid-end {
 position: absolute;
@@ -231,6 +245,8 @@ margin: 0 auto;
 align-items: center;
 justify-content: center;
 }
+
+
 
 /*********************** Conteudos **********************/
 
