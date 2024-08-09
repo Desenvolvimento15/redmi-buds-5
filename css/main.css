@@ -322,7 +322,6 @@ transition: background-color 0.6s ease;
 
 .dot:nth-child(1) {background: url(../media/desktop/Preto.png); /* Cor do dot para o Item 01 */}
 .dot:nth-child(2) {background: url(../media/desktop/Branca.png); /* Cor do dot para o Item 02 */}
-.dot:nth-child(3) {background: url(../media/desktop/cinza.png); /* Cor do dot para o Item 03 */}
 .dot.active {border: #000 solid 0.08rem;/* Cor do dot ativo */}
 
 .text-position{position: relative;}

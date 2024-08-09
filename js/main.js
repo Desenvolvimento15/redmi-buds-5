@@ -3,7 +3,7 @@ $(document).ready(function() {
   const $dotsContainer = $('#dots-container');
   const $textItem = $('#text-item');
 
-  const slideTexts = ["Preto", "Branco", "Cinza"];
+  const slideTexts = ["Preto", "Branco"];
 
   let currentSlide = 0;
 
