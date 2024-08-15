@@ -388,16 +388,8 @@
     /************************************* Mobile ***************************************/
 
     @media only screen and (max-width: 920px) {
-    .container-s101{
-    display: none;
-    }
-    .parent {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
-    }
+
+
 
     .spacing{padding: 1rem;}
     .spacing-galery{padding: 1rem;}
@@ -408,7 +400,15 @@
 
     /***************************** Grind Mobile ************************************/
 
-
+    .grid-google {
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 1rem;
+    }
 
     /**************************TxT******************************/
 
